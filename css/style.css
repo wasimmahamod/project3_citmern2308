@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root {
+  --primary: #5956e8;
+  --white: #fffefe;
+  --black: #181818;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 1170px;
+}
+
+.title {
+  text-align: center;
+}
+.title_headding {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+.title_subHeadding {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(24, 24, 24, 0.7);
+  width: 542px;
+}
+/* navbar css ======================== */
+header {
+  padding: 30px 0;
+}
+.nav-item {
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+.nav-item:hover a {
+  color: var(--primary);
+}
+.navbarBtn {
+  background: var(--primary);
+  outline: none;
+  padding: 13px 24px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* navbar css ======================== */
+/* banner css ======================== */
+#banner {
+  background: var(--primary);
+  padding-top: 165px;
+  padding-bottom: 200px;
+}
+#banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 80px;
+  color: var(--white);
+}
+#banner p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  max-width: 542px;
+  color: var(--white);
+  margin-top: 25px;
+}
+#banner button {
+  background: var(--white);
+  outline: none;
+  padding: 13px 24px;
+  border-radius: 10px;
+  color: var(--primary);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+/* banner css ======================== */
+/* service  css ======================== */
+
+#service {
+  margin-top: 83px;
+}
+
+/* service  css ======================== */
